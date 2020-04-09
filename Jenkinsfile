@@ -37,8 +37,8 @@ pipeline {
         }
         stage ('API Test'){
             steps{
-            git credentialsId: 'github_login', url: 'https://github.com/pamlais/tasks-api-test'
-            bat 'mvn test'
+                git credentialsId: 'github_login', url: 'https://github.com/pamlais/tasks-api-test'
+                bat 'mvn test'
         }
     }
 }
