@@ -1,5 +1,5 @@
 pipleline{
-    agente any
+    agent any
     stages{
         stages('Just Test'){
             steps{
